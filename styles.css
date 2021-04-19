@@ -1,0 +1,121 @@
+ body{
+     font-family: sans-serif;
+     background: radial-gradient( circle, white, #1162ac, rgb(21, 20, 20));
+     background-repeat: no-repeat;
+     margin: 0;
+     height: 100vh;
+     color: white;
+ }
+ 
+ 
+ /* * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    transition: all 2s ease;
+} */
+
+.card{
+ background-color: #333;
+ width: 70%;
+ height: 450px;
+ display: flex;
+ margin: 2em auto;
+}
+
+.card-left{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(29, 20, 20, 0.755);
+    flex-direction: column;
+    align-content: center;
+
+}
+
+
+.card-left img{
+    width: 130px ;
+    padding: 1rem;
+}
+
+.card-right{
+    width: 80%;
+    display: flex;
+    flex-direction:column;
+    padding: 0 2rem;
+}
+
+.card__title{
+    text-transform:uppercase;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1rem 5px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 360px;
+}
+
+.form__field{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form__names{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__names input{
+    width: 320px;
+}
+
+.form__label{
+    margin-bottom:  1rem ;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.form__input ,.form__textarea{
+    outline: none;
+    background:none;
+    border:none ;
+    resize: none;
+    border-bottom: 2px solid white;
+    color: inherit;
+}
+
+.form__textarea{
+    border: 2px solid white;
+    flex-basis: 100px;
+}
+
+.form__submit{
+    width: 40%;
+    background: rgb(136, 136, 245);
+    padding: 1em;
+    border-radius: 15px ;
+    text-transform: uppercase;
+    color: inherit;
+    outline: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
